@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. Colours and fonts are set here once. Components use them through classes
+ * such as bg-sun, text-paper/70 and font-display, so no raw hex values live in the components.
+ */
+@theme {
+  --color-night: #0d1210;  /* background: deep forest at night */
+  --color-paper: #f4eedd;  /* main text: warm off-white, not pure white */
+  --color-sun: #f5b942;    /* primary: golden-hour amber for buttons and key values */
+  --color-meadow: #6fbf9a; /* secondary: grass green, used for "ready" states */
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif; /* titles, buttons */
+  --font-sans: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif; /* body and labels */
+  --font-mono: "Barlow Condensed", "Arial Narrow", sans-serif; /* numbers and key names */
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Figures keep the same width as they change, so the speed and distance do not jitter */
+.font-mono {
+  font-variant-numeric: tabular-nums;
+}
+
+button,
+input[type="range"] {
+  cursor: pointer;
+}
+
+/* One visible focus ring for every control, for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--color-sun);
+  outline-offset: 3px;
+}
+
+/* People who ask for less motion get instant transitions and no looping animation */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Camera name toast: fades in, holds, fades out */
+@keyframes camera-toast {
+  0% { opacity: 0; transform: translateY(-6px); }
+  10% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.camera-toast {
+  animation: camera-toast 1.8s ease forwards;
+}

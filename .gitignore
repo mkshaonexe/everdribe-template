@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.*
+# raw Higgsfield outputs are big; keep them local
+resources/higgsfield/**/*
+!resources/higgsfield/**/.gitkeep

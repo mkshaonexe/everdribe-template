@@ -1,0 +1,702 @@
+{
+  "note": "Exact Higgsfield jobs used to make the original EverDribe assets. Same prompt + same settings = the default look.",
+  "assets": [
+    {
+      "file": "resources/higgsfield/images/car-a-emerald.png",
+      "group": "car",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "Product render of an original, unbranded sporty mid-size coupe-SUV for a video game. Front three-quarter view from the left, whole car visible, centred, on a pure white seamless studio background with a soft contact shadow. Design: sleek sloping fastback roofline, muscular wide hips, tall wheels with thin black tyres, slim continuous LED light blade across the front, sharp angular lower air intakes in gloss black, black roof and mirrors, flush door handles, gloss black lower cladding. Paint: deep metallic emerald-teal green. Dark grey multi-spoke alloy wheels. Absolutely no logos, no badges, no emblems, no text, no license plate. Clean, modern, premium, not resembling any real manufacturer."
+    },
+    {
+      "file": "resources/higgsfield/images/car-a-front.png",
+      "group": "car",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "The exact same car as the reference image, same design, same emerald-green paint, same black roof and wheels, shown in a straight-on FRONT view (orthographic, camera level with the headlights, centred, symmetric), whole car visible, pure white seamless background, soft even studio light. No logos, no text, no license plate.",
+      "reference_images": [
+        "resources/higgsfield/images/car-a-emerald.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/images/car-a-left.png",
+      "group": "car",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "The exact same car as the reference image, same design, same emerald-green paint, same black roof and wheels, shown in a pure LEFT SIDE profile view (orthographic, camera level with the door handles, front of the car pointing left), whole car visible, pure white seamless background, soft even studio light. No logos, no text, no license plate.",
+      "reference_images": [
+        "resources/higgsfield/images/car-a-emerald.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/images/car-a-rear.png",
+      "group": "car",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "The exact same car as the reference image, same design, same emerald-green paint, same black roof and wheels, shown in a straight-on REAR view (orthographic, camera level with the tail lights, centred, symmetric), full-width slim red LED tail-light bar, small integrated spoiler, whole car visible, pure white seamless background, soft even studio light. No logos, no text, no license plate.",
+      "reference_images": [
+        "resources/higgsfield/images/car-a-emerald.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/images/car-a-right.png",
+      "group": "car",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "The exact same car as the reference image, same design, same emerald-green paint, same black roof and wheels, shown in a pure RIGHT SIDE profile view (orthographic, camera level with the door handles, front of the car pointing right), whole car visible, pure white seamless background, soft even studio light. No logos, no text, no license plate.",
+      "reference_images": [
+        "resources/higgsfield/images/car-a-emerald.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/images/rock.png",
+      "group": "scenery",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "model": "flare",
+        "quality": "medium",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "A single large weathered grey granite boulder with patches of green moss, isolated and centred on a pure white background, soft even studio lighting, no shadow, game asset reference, three-quarter view"
+    },
+    {
+      "file": "resources/higgsfield/images/farmhouse.png",
+      "group": "scenery",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "4:3",
+        "height": 1744,
+        "model": "flare",
+        "quality": "medium",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2336
+      },
+      "prompt": "A small rustic countryside farmhouse, one and a half storeys, whitewashed stone walls, red clay tile gable roof, chimney, wooden shutters and door, isolated on a pure white background, three-quarter view from the front left, soft even studio lighting, no ground, game asset reference"
+    },
+    {
+      "file": "resources/higgsfield/images/barn.png",
+      "group": "scenery",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "4:3",
+        "height": 1744,
+        "model": "flare",
+        "quality": "medium",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2336
+      },
+      "prompt": "A rustic weathered wooden barn with a red tin gambrel roof, large double doors, stone foundation, isolated on a pure white background, three-quarter view from the front left, soft even studio lighting, no ground, game asset reference"
+    },
+    {
+      "file": "resources/higgsfield/images/fence.png",
+      "group": "scenery",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "medium",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "One straight section of a rustic wooden split-rail fence, three posts and two horizontal rails, weathered brown wood, side three-quarter view, isolated on a pure white background, soft even studio lighting, game asset reference"
+    },
+    {
+      "file": "resources/higgsfield/images/guardrail.png",
+      "group": "scenery",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "16:9",
+        "height": 1520,
+        "model": "flare",
+        "quality": "medium",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2688
+      },
+      "prompt": "One straight section of a galvanised steel road guardrail (W-beam) on three steel posts, side three-quarter view, isolated on a pure white background, soft even studio lighting, game asset reference"
+    },
+    {
+      "file": "resources/higgsfield/images/tex-grass.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Seamless tileable texture, lush natural meadow grass seen straight from above, varied greens with a few dry yellow blades and tiny clover, flat even overcast lighting, no shadows, no perspective, no objects, edges tile perfectly"
+    },
+    {
+      "file": "resources/higgsfield/images/tex-asphalt.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Seamless tileable texture, plain worn dark grey asphalt road surface seen straight from above, fine aggregate stones, subtle tar patches, no road markings, no lines, flat even lighting, no shadows, no perspective, edges tile perfectly"
+    },
+    {
+      "file": "resources/higgsfield/images/tex-gravel.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Seamless tileable texture, compacted light brown roadside gravel and small pebbles seen straight from above, flat even lighting, no shadows, no perspective, no objects, edges tile perfectly"
+    },
+    {
+      "file": "resources/higgsfield/images/tex-dirt.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Seamless tileable texture, dry brown earth dirt with small stones and a few dry grass bits seen straight from above, flat even lighting, no shadows, no perspective, edges tile perfectly"
+    },
+    {
+      "file": "resources/higgsfield/images/tex-riverbed.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "height": 2048,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Seamless tileable texture, wet rounded river pebbles and sand under shallow clear water seen straight from above, flat even lighting, no shadows, no perspective, edges tile perfectly"
+    },
+    {
+      "file": "resources/higgsfield/images/dust-puff.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "background": "transparent",
+        "height": 1024,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "1k",
+        "width": 1024
+      },
+      "prompt": "A single soft round puff of light beige dust smoke, wispy soft edges fading to fully transparent, centred, transparent background, game particle sprite"
+    },
+    {
+      "file": "resources/higgsfield/images/leaf-sheet.png",
+      "group": "textures",
+      "model": "gpt_image_2_5",
+      "settings": {
+        "aspect_ratio": "1:1",
+        "background": "transparent",
+        "height": 2048,
+        "model": "flare",
+        "quality": "high",
+        "remove_bg": false,
+        "resolution": "2k",
+        "width": 2048
+      },
+      "prompt": "Foliage texture sheet for a 3D game tree atlas. Four separate leafy branch clusters arranged in a clean 2x2 grid, each one centred in its own quadrant with clear empty space between quadrants, isolated on a fully transparent background. Top-left: a dense rounded cluster of fresh green beech leaves on thin twigs, many overlapping leaves filling most of the quadrant, slight variation from deep green to yellow-green. Top-right: a dense cluster of small bright green birch leaves on thin drooping twigs. Bottom-left: a dense cluster of autumn leaves in orange, amber and golden yellow with a few green leaves. Bottom-right: a dense fan-shaped spruce branch tip with short, thick dark green needles packed tightly, no gaps. Photorealistic botanical photograph, seen from directly above, soft even overcast light, no cast shadows, sharp focus, natural colours. No text, no labels, no border."
+    },
+    {
+      "file": "resources/higgsfield/audio/engine-idle.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated sound effect: a modern petrol car engine idling steadily at low rpm, smooth four-cylinder burble, recorded close from the exhaust, constant level, no revving, no music, no voice, no ambience"
+    },
+    {
+      "file": "resources/higgsfield/audio/engine-mid.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated sound effect: a sporty petrol car engine held at a steady medium rpm under load while cruising, continuous even drone with exhaust rasp, constant pitch, no gear changes, no music, no voice, no ambience"
+    },
+    {
+      "file": "resources/higgsfield/audio/engine-high.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated sound effect: a sporty petrol car engine held at a steady high rpm near redline under full throttle, continuous aggressive howl, constant pitch, no gear changes, no music, no voice, no ambience"
+    },
+    {
+      "file": "resources/higgsfield/audio/gravel.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated sound effect: car tyres rolling over loose gravel and grass at moderate speed, continuous crunching rumble, no engine, no music, no voice"
+    },
+    {
+      "file": "resources/higgsfield/audio/wind.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated sound effect: steady wind rushing past a moving car at highway speed, continuous airy whoosh, no engine, no music, no voice"
+    },
+    {
+      "file": "resources/higgsfield/audio/ambience.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Ambience: peaceful open countryside in late afternoon, gentle breeze through grass and trees, distant songbirds, very calm and continuous, no music, no voice, no traffic"
+    },
+    {
+      "file": "resources/higgsfield/audio/bump.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated sound effect: a car body lightly bumping into a wooden fence, single dull thud with wood creak, short, no music, no voice"
+    },
+    {
+      "file": "resources/higgsfield/audio/ui-click.wav",
+      "group": "sound",
+      "model": "seed_audio",
+      "settings": {
+        "batch_size": 1,
+        "expression_intensity": 5,
+        "format": "wav",
+        "loudness_rate": 0,
+        "mood": 0,
+        "pitch_rate": 0,
+        "sample_rate": 24000,
+        "speech_rate": 0
+      },
+      "prompt": "Isolated UI sound effect: a soft clean modern menu click, short and pleasant, no music, no voice"
+    },
+    {
+      "file": "resources/higgsfield/audio/skid-mirelo.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 6
+      },
+      "prompt": "continuous high-pitched car tyre squeal on dry asphalt during a sideways drift, sustained screech, no engine, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/land-soft.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car landing softly after a small hop over a bump: a light suspension thump and tyre patter, starts instantly, short, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/land-hard.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A heavy SUV landing hard on the ground after a jump: deep suspension slam, tyres thumping down, chassis clunk and springs bouncing, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/tree-hit-soft.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A slow car gently knocking into a leafy tree trunk: a soft hollow wooden thump and a brief leaf rustle, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/tree-hit-hard.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car crashing hard into a big leafy tree trunk: heavy deep wooden thud with crunching metal, then leaves and small branches shaking and rustling, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/pine-hit.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car hitting a pine tree: a solid resinous wooden thud, then pine needles and twigs shaking and falling, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/birch-hit.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car hitting a thin birch tree: a sharp high wooden crack and snap of a slender trunk, light leaf rustle, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/tree-scrape.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "Continuous steady sound of a car's side rubbing and scraping along rough tree bark, wood creaking and bark grinding against painted metal, constant with no start or end, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/rail-hit-hard.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car slamming hard into a steel roadside guardrail: one loud immediate metallic crash and clang with a short ringing tail, sound starts instantly at time zero, isolated sound effect, no music, no voices"
+    },
+    {
+      "file": "resources/higgsfield/audio/rail-hit-soft.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car lightly bumping a steel roadside guardrail: a single soft dull metal knock, starts instantly, short, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/rail-scrape.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "Continuous steady sound of a car body scraping and grinding along a steel guardrail while driving, constant metal-on-metal scrape with no start or end, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/crash-heavy.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car crashing at high speed into a brick farmhouse wall: huge heavy impact, crumpling metal, shattering glass, debris falling, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/rock-hit.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car bumper hitting a large boulder: a hard dull stone thud with a crunch of plastic and metal, starts instantly, short, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/splash.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A car plunging into a shallow river: big water splash and spray, then bubbling and water sloshing, starts instantly, isolated sound effect, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/grass-roll.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "Continuous steady sound of car tyres rolling fast through thick meadow grass, swishing and brushing grass blades with soft soil rumble, constant with no start or end, isolated, no engine, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/dirt-roll.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "Continuous steady sound of car tyres rolling on a dry dirt road with small pebbles, crunching gravel and dusty rumble, constant with no start or end, isolated, no engine, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/horn.mp3",
+      "group": "sound",
+      "model": "mirelo_text_to_audio",
+      "settings": {
+        "duration": 3
+      },
+      "prompt": "A modern car horn held down steadily: a bright two-tone electric car horn chord, constant sustained tone for the whole length, starts instantly, isolated, no music"
+    },
+    {
+      "file": "resources/higgsfield/audio/music-drive.m4a",
+      "group": "music",
+      "model": "sonilo_music",
+      "settings": {
+        "duration": 90
+      },
+      "prompt": "Instrumental chill driving music for an endless countryside road trip game, warm mellow electric guitar, soft synth pads, laid-back drums, 90 bpm, hopeful golden-hour mood, seamless loop feel, no vocals"
+    },
+    {
+      "file": "resources/higgsfield/audio/music-menu.m4a",
+      "group": "music",
+      "model": "sonilo_music",
+      "settings": {
+        "duration": 90
+      },
+      "prompt": "Instrumental calm ambient title-screen music for a relaxing driving game, gentle piano and airy pads, slow and dreamy, no drums, no vocals, loopable"
+    },
+    {
+      "file": "resources/higgsfield/models/car-a.glb",
+      "group": "car",
+      "model": "tripo_h3_1_multiview_to_3d",
+      "settings": {
+        "auto_size": false,
+        "face_limit": 30000,
+        "geometry_quality": "standard",
+        "orientation": "default",
+        "pbr": true,
+        "quad": false,
+        "seed": null,
+        "texture": true,
+        "texture_alignment": "original_image",
+        "texture_quality": "detailed",
+        "texture_seed": null
+      },
+      "input_images": [
+        "resources/higgsfield/images/car-a-front.png",
+        "resources/higgsfield/images/car-a-left.png",
+        "resources/higgsfield/images/car-a-rear.png",
+        "resources/higgsfield/images/car-a-right.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/models/guardrail.glb",
+      "group": "scenery",
+      "model": "tripo_h3_1_image_to_3d",
+      "settings": {
+        "auto_size": false,
+        "face_limit": 1500,
+        "geometry_quality": "standard",
+        "orientation": "default",
+        "pbr": false,
+        "quad": false,
+        "seed": null,
+        "texture": true,
+        "texture_alignment": "original_image",
+        "texture_quality": "standard",
+        "texture_seed": null
+      },
+      "input_images": [
+        "resources/higgsfield/images/guardrail.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/models/fence.glb",
+      "group": "scenery",
+      "model": "tripo_h3_1_image_to_3d",
+      "settings": {
+        "auto_size": false,
+        "face_limit": 1500,
+        "geometry_quality": "standard",
+        "orientation": "default",
+        "pbr": false,
+        "quad": false,
+        "seed": null,
+        "texture": true,
+        "texture_alignment": "original_image",
+        "texture_quality": "standard",
+        "texture_seed": null
+      },
+      "input_images": [
+        "resources/higgsfield/images/fence.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/models/barn.glb",
+      "group": "scenery",
+      "model": "tripo_h3_1_image_to_3d",
+      "settings": {
+        "auto_size": false,
+        "face_limit": 6000,
+        "geometry_quality": "standard",
+        "orientation": "default",
+        "pbr": false,
+        "quad": false,
+        "seed": null,
+        "texture": true,
+        "texture_alignment": "original_image",
+        "texture_quality": "standard",
+        "texture_seed": null
+      },
+      "input_images": [
+        "resources/higgsfield/images/barn.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/models/house.glb",
+      "group": "scenery",
+      "model": "tripo_h3_1_image_to_3d",
+      "settings": {
+        "auto_size": false,
+        "face_limit": 6000,
+        "geometry_quality": "standard",
+        "orientation": "default",
+        "pbr": false,
+        "quad": false,
+        "seed": null,
+        "texture": true,
+        "texture_alignment": "original_image",
+        "texture_quality": "standard",
+        "texture_seed": null
+      },
+      "input_images": [
+        "resources/higgsfield/images/farmhouse.png"
+      ]
+    },
+    {
+      "file": "resources/higgsfield/models/rock.glb",
+      "group": "scenery",
+      "model": "tripo_h3_1_image_to_3d",
+      "settings": {
+        "auto_size": false,
+        "face_limit": 1500,
+        "geometry_quality": "standard",
+        "orientation": "default",
+        "pbr": false,
+        "quad": false,
+        "seed": null,
+        "texture": true,
+        "texture_alignment": "original_image",
+        "texture_quality": "standard",
+        "texture_seed": null
+      },
+      "input_images": [
+        "resources/higgsfield/images/rock.png"
+      ]
+    }
+  ]
+}
